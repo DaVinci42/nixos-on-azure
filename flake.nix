@@ -1,9 +1,9 @@
 {
-  inputs.nixos.url = "github:nixos/nixpkgs/nixos-24.05";
+  inputs.nixos.url = "github:nixos/nixpkgs/nixos-24.11";
 
   outputs = { nixos, ... }:
     let
-      username = "rudesome";
+      username = "novello";
       system = "x86_64-linux";
       pkgs = import nixos { inherit system; };
     in

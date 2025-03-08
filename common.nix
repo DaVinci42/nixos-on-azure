@@ -3,7 +3,7 @@
     "${modulesPath}/virtualisation/azure-common.nix"
   ];
 
-  system.stateVersion = "24.05";
+  system.stateVersion = "24.11";
   i18n.defaultLocale = "en_US.UTF-8";
 
   boot.loader.systemd-boot.enable = true;
